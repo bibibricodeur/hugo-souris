@@ -2,160 +2,160 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exercices souris</title>
-    <link>http://localhost/PROJETS/hugo-souris/public/</link>
+    <link>https://exercices-souris.netlify.app/</link>
     <description>Recent content on Exercices souris</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language><atom:link href="http://localhost/PROJETS/hugo-souris/public/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-FR</language><atom:link href="https://exercices-souris.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mentions légales</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/mentions/</link>
+      <link>https://exercices-souris.netlify.app/mentions/</link>
       <pubDate>Thu, 01 Jan 1970 12:00:00 +0100</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/mentions/</guid>
+      <guid>https://exercices-souris.netlify.app/mentions/</guid>
       <description>Identité  Nom du site web: Exercices souris Adresse: netlify.com Propriétaire: Thierry Charriot Responsable de publication: Thierry Charriot   Conception et réalisation: Thierry Charriot Animation: Thierry Charriot Hébergement: Netlify  Personne morale  Raison sociale: particulier Adresse complète: 17160 Matha Téléphone: Trop spammé Courriel: bibibricodeur (signe bizarre) gmail.com  Conditions d&amp;rsquo;utilisation L’utilisation du présent site implique l’acceptation pleine et entière des conditions générales d’utilisation décrites ci-après. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment.</description>
     </item>
     
     <item>
       <title>Clic droit X 06</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-droit-06/</link>
+      <link>https://exercices-souris.netlify.app/clic-droit-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-droit-06/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-droit-06/</guid>
       <description>Clic droit X 06 Majeur sur le dessus droit de la souris, clic droit et descendre sur Supprimer. Puis index clic gauche !!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!    Recommencer Continuer       $( document ).ready(function() { $.contextMenu({ selector: &#34;#001&#34;, items: { nouveau: { name: &#34;Nouveau&#34;, callback: function (key, opt) {} }, couper: { name: &#34;</description>
     </item>
     
     <item>
       <title>Clic droit X 12</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-droit-12/</link>
+      <link>https://exercices-souris.netlify.app/clic-droit-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-droit-12/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-droit-12/</guid>
       <description>Clic droit X 12 Majeur sur le dessus droit de la souris, clic droit et descendre sur Supprimer. Puis index clic gauche !!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!    Recommencer Continuer       $( document ).</description>
     </item>
     
     <item>
       <title>Clic droit X 24</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-droit-24/</link>
+      <link>https://exercices-souris.netlify.app/clic-droit-24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-droit-24/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-droit-24/</guid>
       <description>Clic droit X 24 Majeur sur le dessus droit de la souris, clic droit et descendre sur Supprimer. Puis index clic gauche !!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!</description>
     </item>
     
     <item>
       <title>Clic droit X 48</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-droit-48/</link>
+      <link>https://exercices-souris.netlify.app/clic-droit-48/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-droit-48/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-droit-48/</guid>
       <description>Clic droit X 48 Majeur sur le dessus droit de la souris, clic droit et descendre sur Supprimer. Puis index clic gauche !!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!</description>
     </item>
     
     <item>
       <title>Clic gauche X 06</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-gauche-06/</link>
+      <link>https://exercices-souris.netlify.app/clic-gauche-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-gauche-06/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-gauche-06/</guid>
       <description>Clic gauche X 06 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!    Recommencer Continuer     document.getElementById(&#34;001&#34;).addEventListener( &#34;click&#34;, () = { document.getElementById(&#34;001&#34;).hidden = true; }, false ); document.getElementById(&#34;002&#34;).addEventListener( &#34;click&#34;, () = { document.getElementById(&#34;002&#34;).hidden = true; }, false ); document.getElementById(&#34;003&#34;).addEventListener( &#34;click&#34;, () = { document.</description>
     </item>
     
     <item>
       <title>Clic gauche X 12</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-gauche-12/</link>
+      <link>https://exercices-souris.netlify.app/clic-gauche-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-gauche-12/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-gauche-12/</guid>
       <description>Clic gauche X 12 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!    Recommencer Continuer     document.getElementById(&#34;001&#34;).addEventListener( &#34;click&#34;, () = { document.</description>
     </item>
     
     <item>
       <title>Clic gauche X 24</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-gauche-24/</link>
+      <link>https://exercices-souris.netlify.app/clic-gauche-24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-gauche-24/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-gauche-24/</guid>
       <description>Clic gauche X 24 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!</description>
     </item>
     
     <item>
       <title>Clic gauche X 48</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/clic-gauche-48/</link>
+      <link>https://exercices-souris.netlify.app/clic-gauche-48/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/clic-gauche-48/</guid>
+      <guid>https://exercices-souris.netlify.app/clic-gauche-48/</guid>
       <description>Clic gauche X 48 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!</description>
     </item>
     
     <item>
       <title>Double clic X 06</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/double-clic-06/</link>
+      <link>https://exercices-souris.netlify.app/double-clic-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/double-clic-06/</guid>
+      <guid>https://exercices-souris.netlify.app/double-clic-06/</guid>
       <description>Double clic X 06 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!    Recommencer Continuer     document.getElementById(&#34;001&#34;).addEventListener( &#34;dblclick&#34;, () = { document.getElementById(&#34;001&#34;).hidden = true; }, false ); document.getElementById(&#34;002&#34;).addEventListener( &#34;dblclick&#34;, () = { document.getElementById(&#34;002&#34;).hidden = true; }, false ); document.getElementById(&#34;003&#34;).addEventListener( &#34;dblclick&#34;, () = { document.</description>
     </item>
     
     <item>
       <title>Double clic X 12</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/double-clic-12/</link>
+      <link>https://exercices-souris.netlify.app/double-clic-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/double-clic-12/</guid>
+      <guid>https://exercices-souris.netlify.app/double-clic-12/</guid>
       <description>Double clic X 12 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!    Recommencer Continuer     document.getElementById(&#34;001&#34;).addEventListener( &#34;dblclick&#34;, () = { document.</description>
     </item>
     
     <item>
       <title>Double clic X 24</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/double-clic-24/</link>
+      <link>https://exercices-souris.netlify.app/double-clic-24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/double-clic-24/</guid>
+      <guid>https://exercices-souris.netlify.app/double-clic-24/</guid>
       <description>Double clic X 24 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!</description>
     </item>
     
     <item>
       <title>Double clic X 48</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/double-clic-48/</link>
+      <link>https://exercices-souris.netlify.app/double-clic-48/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/double-clic-48/</guid>
+      <guid>https://exercices-souris.netlify.app/double-clic-48/</guid>
       <description>Double clic X 48 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic Clic!  Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!  Supprimer moi!  Supprimer moi!   Supprimer moi!</description>
     </item>
     
     <item>
       <title>Glisser déposer X 06</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-06/</link>
+      <link>https://exercices-souris.netlify.app/glisser-deposer-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-06/</guid>
+      <guid>https://exercices-souris.netlify.app/glisser-deposer-06/</guid>
       <description>Glisser déposer X 06 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic, rester appuyé et glisser sur la droite, relacher!  Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!</description>
     </item>
     
     <item>
       <title>Glisser déposer X 12</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-12/</link>
+      <link>https://exercices-souris.netlify.app/glisser-deposer-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-12/</guid>
+      <guid>https://exercices-souris.netlify.app/glisser-deposer-12/</guid>
       <description>Glisser déposer X 12 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic, rester appuyé et glisser sur la droite, relacher!  Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!</description>
     </item>
     
     <item>
       <title>Glisser déposer X 24</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-24/</link>
+      <link>https://exercices-souris.netlify.app/glisser-deposer-24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-24/</guid>
+      <guid>https://exercices-souris.netlify.app/glisser-deposer-24/</guid>
       <description>Glisser déposer X 24 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic, rester appuyé et glisser sur la droite, relacher!  Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!</description>
     </item>
     
     <item>
       <title>Glisser déposer X 48</title>
-      <link>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-48/</link>
+      <link>https://exercices-souris.netlify.app/glisser-deposer-48/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost/PROJETS/hugo-souris/public/glisser-deposer-48/</guid>
+      <guid>https://exercices-souris.netlify.app/glisser-deposer-48/</guid>
       <description>Glisser déposer X 48 Index sur le dessus gauche de la souris, aller sur le Smiley. Clic, rester appuyé et glisser sur la droite, relacher!  Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!   Relacher moi!    Glisser moi!</description>
     </item>
     

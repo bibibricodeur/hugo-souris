@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Exercices souris</title>
-    <link>http://localhost/PROJETS/hugo-souris/public/categories/</link>
+    <link>https://exercices-souris.netlify.app/categories/</link>
     <description>Recent content in Categories on Exercices souris</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-FR</language><atom:link href="http://localhost/PROJETS/hugo-souris/public/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-FR</language><atom:link href="https://exercices-souris.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,5 +1,6 @@
 #baseURL             = ''
-baseURL             = 'http://localhost/PROJETS/hugo-souris/public/'
+#baseURL             = 'http://localhost/PROJETS/hugo-souris/public/'
+baseURL             = 'https://exercices-souris.netlify.app/'
 languageCode        = 'fr-FR'
 title               = 'Exercices souris'
 
