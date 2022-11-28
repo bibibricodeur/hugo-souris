@@ -1,0 +1,4 @@
+# http://robots-txt.com/
+
+User-agent: *
+Disallow: /

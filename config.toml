@@ -1,0 +1,22 @@
+#baseURL             = ''
+baseURL             = 'http://localhost/PROJETS/hugo-souris/public/'
+languageCode        = 'fr-FR'
+title               = 'Exercices souris'
+
+theme               = 'bootstrap-souris'
+
+paginate            = 64
+
+[params]
+    # mentions légales
+    domain          = 'netlify.com'
+    hosting         = 'Netlify'
+    server          = 'https://app.netlify.com'
+    owner           = 'Thierry Charriot'
+    responsible     = 'Thierry Charriot'
+    design          = 'Thierry Charriot'
+    animation       = 'Thierry Charriot'
+    statut          = 'particulier'
+    address         = '17160 Matha'
+    phone           = 'Trop spammé'
+    mail            = 'bibibricodeur (signe bizarre) gmail.com'

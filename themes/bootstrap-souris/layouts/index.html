@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main aria-role="main" id="home">
+    <div class="container-fluid" id="container">
+        <!-- Page Content goes here -->
+        <div class="row">
+
+            <div class="col-12 col-md-9 ">
+                    <article class="card m-3">
+                        <div class="card-header">
+                            <h1 class="card-title text-center fs-1">{{ .Title }}</h1>
+                        </div><!-- card-header -->
+                        <div class="card-body fs-5">
+                            {{ .Content }}
+                        </div><!--/card-body-->
+                        <div class="card-footer">
+                            <a href="{{ .Site.BaseURL }}/clic-gauche-06" type="button" class="btn btn-success btn-lg mb-3">Commencer</a>
+                        </div><!--/card-footer-->
+                    </article><!--/card-->
+
+                {{ template "_internal/pagination.html" . }}
+                
+            </div><!--/col-->
+
+            {{- partial "sidebar.html" . -}}
+
+        </div><!--/row-->
+    </div><!--/container-->
+</main>
+{{ end }}

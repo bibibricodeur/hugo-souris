@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+#home {
+    min-height: 90vh; 
+}
+  
+.card-header, .card-footer {
+    background-color: #fff;
+    border: none;
+}
+
+.card-image-goeland {
+    max-width: 45%;
+    margin: 0 auto;
+}
+
+img {
+    width: 99%;
+    margin: 0 auto;
+}
+
+.pagination {
+    margin-left: 1rem;
+}
+
+#target {
+    background-color: #F9F9F9;
+}
+.target-240 {
+    height: 240px;
+
+}
+.target-120 {
+    height: 120px;
+
+}
+.target-60 {
+    height: 60px;
+
+}
+.target-30 {
+    height: 30px;
+
+}
+
+/* Ascenseur */
+#bouton_remonter {
+	display: none;
+	position: fixed;
+	bottom: 90px;
+	right: 10px;
+	z-index: 99;
+	opacity: 0.6;
+}
+#bouton_remonter:hover {
+	transition-duration: 0.7s;
+	opacity: 0.3;
+}
+/* Fin */
