@@ -11,16 +11,6 @@ googleAnalytics: G-6F7B7XK0CH
 # Content setup
 paginate:       6
 
-# Menu setup
-menu:
-  main:
-  - name:     Accueil
-    pageRef:  /
-    weight:   10
-  - name:     Mentions légales
-    pageRef:  /mentions
-    weight:   30
-
 # Parameter settings
 params:
   home:         'img/3-Tasten-Maus_Microsoft.webp'
