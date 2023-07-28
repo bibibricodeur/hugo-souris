@@ -1,6 +1,5 @@
 # Basic setup
-#baseURL:        ''
-baseURL:        'https://exercices-souris.netlify.app/'
+baseURL:        ''
 languageCode:   'fr-FR'
 title:          'Exercices souris'
 
