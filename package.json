@@ -1,0 +1,15 @@
+{
+  "name": "hugo-souris",
+  "version": "1.0.0",
+  "description": "Site d'exercices souris réalisé avec le générateur de site [Hugo](https://gohugo.io/), ainsi que le framework [jQuery](https://jquery.com/) et l'extension [jQuery contextMenu](http://swisnl.github.io/jQuery-contextMenu/). Toutes les fonctionnalités n'ont pas encore été développées.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "hugo server & tailwindcss -i ./assets/src/input.css -o ./assets/dist/output.css --watch",
+    
+    "prod": "tailwindcss -i ./assets/src/input.css -o ./assets/dist/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

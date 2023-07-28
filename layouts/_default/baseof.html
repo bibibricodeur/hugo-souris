@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="fr">
+{{- partial "head.html" . -}}
+
+<body id="page-top">
+    {{- partial "header.html" . -}}
+    <div id="content" class="bg-green-700">
+        {{- block "main" . }}{{- end }}
+    </div>
+    {{- partial "footer.html" . -}}
+    <a href="#page-top" class="bibi-elevator" id="btn-top" title="Click to go back to the top of this damn page!">Back
+        to Top !</a>
+</body>
+
+</html>

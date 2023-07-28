@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<main class="container mx-auto flex flex-col md:flex-row">
+
+    <article class="md:basis-3/4 p-3 lg:p-O">
+
+        <div class="my-3 p-3 bg-green-50 border border-sky-900 rounded relative text-center">
+            <a class="text-2xl font-bold text-sky-600 underline hover:text-sky-900 hover:no-underline" href="{{ .Site.BaseURL }}">{{- .Title -}}</a>
+        </div>
+
+        {{ range .Paginator.Pages }}
+
+        <section class="my-3 p-3 border bg-green-50 rounded shadow-lg">
+            <div class="bg-green-50 border border-sky-900 mb-3 px-3 py-3 rounded relative text-center">
+                <a class="text-2xl font-bold text-sky-600 hover:text-sky-900" href="{{ .RelPermalink }}">{{- .Title -}}</a>
+            </div>
+
+            <p class="my-3">{{ .Summary }}</p>
+            {{ if .Truncated }}
+            <p>
+                <a href="{{ .RelPermalink }}"
+                    class="bg-sky-600 hover:bg-sky-900 text-white font-bold py-3 px-3 border border-sky-900 rounded hover:transition hover:duration-300 text-center">Read
+                    more →</a>
+            </p>
+            {{ end }}
+        </section>
+
+        {{ end }}
+
+        {{- partial "includes/pagination" . -}}
+
+    </article>
+
+    {{- partial "aside.html" . -}}
+
+</main>
+
+{{ end }}

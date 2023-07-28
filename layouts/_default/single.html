@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<main class="container mx-auto flex flex-col md:flex-row">
+
+    <article class="md:basis-3/4 p-3 lg:pr-3 lg:pt-3 lg:p-O">
+
+        <section class="my-3 p-3 bg-green-50 rounded shadow-lg">
+            <div class="bg-green-50 border border-sky-900 px-3 py-3 rounded relative text-center">
+                <h1 class="text-2xl font-bold text-stone-900">{{- .Title -}}</h1>
+            </div>
+        
+            {{ .Content }}
+
+            <p>
+                {{ $title := "single" }}
+                {{ if not (eq $title .Page.Title) }}
+                {{ if .Date }} {{ .Date.Format "02/01/2006" }} | {{ end }} {{ .Site.Params.author | default "Anonymous"
+                }}
+                {{ end }}
+            </p>
+        </section>
+
+    </article>
+
+    {{- partial "aside.html" . -}}
+
+</main>
+
+{{ end }}

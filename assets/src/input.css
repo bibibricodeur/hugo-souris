@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    @apply py-3;
+}
+
+.bibi-elevator {
+    @apply bg-green-600 hover:bg-green-900 text-green-50 font-bold py-3 px-3 border border-green-900 rounded fixed right-3 bottom-12 z-50 hover:transition hover:duration-300;
+}
+
+html { scroll-behavior: smooth; }
+article section a { color: dodgerblue; text-decoration: underline; } article section a:hover { text-decoration: none; }
+code { margin: 0.6rem 0; color: brown; white-space: pre-line; }
+img { margin: 1rem auto; width: 100%; }
+
+section img { max-width: 98%; max-height: 300px; object-fit: cover; object-position: center; }
+
+/* https://tailwindcss.com/docs/font-size */
+h1 { font-size: 2.25rem; /* 36px */ line-height: 2.5rem; /* 40px */ }
+h2 { font-size: 1.875rem; /* 30px */ line-height: 2.25rem; /* 36px */ }
+h3 { font-size: 1.5rem; /* 24px */ line-height: 2rem; /* 32px */ }
+h4 { font-size: 1.25rem; /* 20px */ line-height: 1.75rem; /* 28px */ }
+h5 { font-size: 1.125rem; /* 18px */ line-height: 1.75rem; /* 28px */ }

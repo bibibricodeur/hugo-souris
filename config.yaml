@@ -1,0 +1,32 @@
+# Basic setup
+#baseURL:        ''
+baseURL:        'http://localhost/Public/public-souris/'
+languageCode:   'fr-FR'
+title:          'Exercices souris'
+
+publishDir:     '/opt/lampp/htdocs/Public/public-souris'
+googleAnalytics: G-6F7B7XK0CH
+
+# Content setup
+paginate:       6
+
+# Menu setup
+menu:
+  main:
+  - name:     Accueil
+    pageRef:  /
+    weight:   10
+  - name:     Mentions légales
+    pageRef:  /mentions
+    weight:   30
+
+# Parameter settings
+params:
+  home:         'img/3-Tasten-Maus_Microsoft.webp'
+  happy:        'images/M-Face-7.svg'
+  unhappy:      'images/glassy-smiley-bad.svg'
+
+  author:       'Thierry Charriot'
+  description:  'Application, site entrainement au maniement souris, personnes débutant en informatique , personnes agées. Clic gauche, double clic, copier coller, clic droit supprimer.' 
+  email:        'mrthierrycharriot(signe bizarre)gmail.com'
+  github:       'https://github.com/bibibricodeur'

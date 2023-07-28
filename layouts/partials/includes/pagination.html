@@ -1,0 +1,47 @@
+<!-- https://glennmccomb.com/articles/how-to-build-custom-hugo-pagination/ -->
+{{ $paginator := .Paginator }}
+
+<nav class="">
+  <!-- If there's more than one page. -->
+  {{ if gt $paginator.TotalPages 1 }}
+
+  <ul class="flex justify-center">
+    <!-- First page. -->
+    {{ if ne $paginator.PageNumber 1 }}
+    <li class="pmx-1">
+      <a href="{{ $paginator.First.URL }}"
+        class="prelative block px-3 py-1.5 bg-stone-50 border border-stone-900 rounded hover:bg-stone-300">««</a>
+    </li>
+    {{ end }}
+    <!-- Previous page. -->
+    {{ if $paginator.HasPrev }}
+    <li class="mx-1">
+      <a href="{{ $paginator.Prev.URL }}"
+        class="relative block px-3 py-1.5 bg-stone-50 border border-stone-900 rounded hover:bg-stone-300">«</a>
+    </li>
+    {{ end }}
+    <!-- Page numbers. -->
+    {{ range $paginator.Pagers }}
+    <li class="mx-1">
+      <a href="{{ .URL }}"
+        class="relative block px-3 py-1.5 bg-stone-50 border border-stone-900 rounded hover:bg-stone-300 hover:text-stone-600 {{ if eq . $paginator }} bg-stone-700 text-stone-50 {{ end }}">{{
+        .PageNumber }}</a>
+    </li>
+    {{ end }}
+    <!-- Next page. -->
+    {{ if $paginator.HasNext }}
+    <li class="mx-1">
+      <a href="{{ $paginator.Next.URL }}"
+        class="relative block px-3 py-1.5 bg-stone-50 border border-stone-900 rounded hover:bg-stone-300">»</a>
+    </li>
+    {{ end }}
+    <!-- Last page. -->
+    {{ if ne $paginator.PageNumber $paginator.TotalPages }}
+    <li class="mx-1">
+      <a href="{{ $paginator.Last.URL }}"
+        class="relative block px-3 py-1.5 bg-stone-50 border border-stone-900 rounded hover:bg-stone-300">»»</a>
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</nav>

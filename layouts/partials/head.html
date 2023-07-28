@@ -1,0 +1,49 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ hugo.Generator }}
+    {{- if or .Description .Site.Params.description }}
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
+    {{- end }}
+
+    <title>
+        {{- if .IsHome -}}
+        {{- .Site.Title -}}
+        {{- else -}}
+        {{- .Title }} - {{ .Site.Title -}}
+        {{- end -}}
+    </title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+    
+    {{ $style := resources.Get "dist/output.css" }}
+    <link rel="stylesheet" href="{{- $style.Permalink | relURL -}}" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+  
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin="" defer></script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        @media only screen and (max-width: 1023px) {
+            #check:checked~#menu {
+                display: block;
+            }
+        }
+        @media only screen and (min-width: 1024px) {
+            .hamburger {
+                display: none;
+            }
+        }
+    </style>
+    {{ template "_internal/google_analytics.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+</head>

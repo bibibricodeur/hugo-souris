@@ -1,0 +1,45 @@
+<footer class="px-4 divide-y bg-gradient-to-r from-amber-600 to-amber-800 text-amber-50">
+    <div class="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+
+        <div class="lg:w-1/4">
+            <a rel="noopener noreferrer" href="{{ .Site.BaseURL }}"
+                class="flex justify-between space-x-3 lg:justify-start hover:text-amber-600">
+                <div class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-300">
+                    <img src="{{ .Site.BaseURL }}/img/Recycling_symbol.svg" class="w-9 h-9" alt="Logo recycling">
+                </div>
+                <span class="self-center text-2xl font-semibold">{{ site.Title }}</span>
+            </a>
+        </div>
+
+        <div class="flex-row space-y-3 text-sm gap-x-3 gap-y-8 w-3/4 lg:grid lg:grid-cols-3">
+            <div class="space-y-3 col-span-2">
+                <p class="uppercase text-amber-200">Citations</p>
+                <ul class="space-y-1">
+                    {{ range .Site.Data.citations }}
+                    <li class="">{{ .citation }} <a rel="noopener noreferrer" class="underline hover:no-underline"
+                            href="{{ .url }}">{{ .name
+                            }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="space-y-3">
+                <p class="uppercase text-amber-200">Quick link(s):</p>
+                <ul class="space-y-1">
+                    {{ range .Site.Data.connect }}
+                    <li class=""><a rel="noopener noreferrer" class="underline hover:no-underline" href="{{ .url }}">{{
+                            .name
+                            }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="py-6 text-sm text-center text-amber-200">
+        Carrossé par <a href="https://tailwindcss.com/" class="underline hover:no-underline">Tailwind CSS</a> & <a
+            href="https://thierrycharriot.github.io" class="underline hover:no-underline">Thierry Charriot</a>. Motorisé
+        par <a href="https://gohugo.io/" class="underline hover:no-underline">Hugo</a>. Copyright &copy; 2016 - 2023
+    </div>
+</footer>
+
+{{ $scripts := resources.Get "js/scripts.js" }}
+<script src="{{- $scripts.Permalink | relURL -}}"></script>

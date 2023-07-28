@@ -1,0 +1,63 @@
+<section class="flex-row lg:flex lg:justify-between py-3">
+
+    <div class="lg:mr-3 lg:w-6/12 text-justify">
+        <h3 class="">Propriétaire du site : {{ .Site.Params.author }}</h3>
+        <p>
+            Le site <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> est un site personnel à caractère informatif. Les informations qui y sont publiées sont mises à 
+            disposition sans aucune garantie de quelque nature que ce soit. L'utilisateur est seul responsable de l'utilisation de ces informations.
+        </p>
+
+        <p>
+            Le contenu du site <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> est protégé par les droits d'auteur. Toute reproduction, modification, publication, 
+            transmission, dénaturation, totale ou partielle du contenu est interdite sans l'accord préalable et écrit de {{ .Site.Params.author }}.
+        </p>
+
+        <p>
+            Les liens vers d'autres sites qui peuvent être proposés sur le site <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> ne sont pas sous son contrôle. 
+            En conséquence, {{ .Site.Params.author }} ne peut être tenu responsable de la mise à disposition de ces sites et sources externes, ni de tous dommages résultant de leur contenu.
+        </p>
+
+        <p>
+            Pour toute question ou demande relative au site ou à ses contenus, vous pouvez contacter {{ .Site.Params.author }} à l'adresse {{ .Site.Params.email }}.
+        </p>
+
+        <h3 class="text-2xl">Conditions d'utilisation</h3>
+
+        <p>
+            L'utilisation du site <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> implique l'acceptation pleine et entière des conditions d'utilisation ci-après décrites. Ces conditions d'utilisation sont susceptibles d'être modifiées ou complétées à tout moment, les utilisateurs du site sont donc invités à les consulter de manière régulière.
+        </p>
+
+        <p>
+            Ce site est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée 
+            par {{ .Site.Params.author }}, qui s'efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l'intervention.
+        </p>
+
+        <p>
+            Le site <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> est mis à jour régulièrement par {{ .Site.Params.author }}. De la même façon, les mentions légales 
+            peuvent être modifiées à tout moment : elles s'imposent néanmoins à l'utilisateur qui est invité à s'y référer le plus souvent possible afin d'en prendre 
+            connaissance.
+        </p>
+
+        <h3 class="text-2xl">Données personnelles</h3>
+
+        <p>
+            Aucune donnée personnelle n'est collectée à l'insu de l'utilisateur. Aucune donnée personnelle n'est cédée à des tiers.
+        </p>
+
+        <p>
+            Conformément à la loi "Informatique et Libertés" du 6 janvier 1978, vous disposez d'un droit d'accès, de rectification et de suppression des données qui vous 
+            concernent. Pour exercer ce droit, vous pouvez vous adresser à l'éditeur du site à l'adresse mentionnée ci-dessus.
+        </p>
+    </div>
+
+    <div id="map" class="lg:m3 lg:w-6/12 bg-white h-96 lg:h-auto shadow-lg"></div>
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin="" defer></script>
+
+    {{ $leaflet := resources.Get "js/leaflet.js" }}
+    <script src="{{- $leaflet.Permalink | relURL -}}" defer></script>
+
+</section>

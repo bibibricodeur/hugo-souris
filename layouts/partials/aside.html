@@ -1,0 +1,15 @@
+<aside class="md:basis-1/4 shadow-lg bg-green-900 lg:col-span-6 lg:h-auto text-green-50 p-3 lg:my-6">
+
+    <h3 class="font-semibold">Dernier(s) article(s)</h3>
+    <ul class="my-3">
+        {{ range .Site.Menus.aside }}
+        {{ if not .Params.draft }}
+        <li class="my-1 mb-1">
+            <a href="{{ .URL }}"
+                class="block p-3 border border-green-600 underline rounded hover:bg-green-600 hover:no-underline hover:text-green-50 hover:transition hover:duration-300 {{ if $.IsMenuCurrent "aside" . }} no-underline bg-green-600 text-white {{ end }}">{{ .Name }}</a>
+        </li>
+        {{ end }}
+        {{ end }}
+        {{/* printf "%#v" $title }}<hr>{{ printf "%#v" .Page.Title */}}
+    </ul>
+</aside>

@@ -1,0 +1,23 @@
+<!-- Navbar -->
+<nav class="">
+    <!-- Flex container -->
+    <div class="flex flex-col lg:container lg:mx-auto lg:flex-row lg:items-center lg:justify-between">
+        <!-- Logo -->
+        <input type="checkbox" id="check" class="hidden">
+        <label
+            class="hover:text-sky-700 flex items-center justify-between px-3 hover:transition hover:duration-300"
+            for="check"><img src="{{ .Site.BaseURL }}/img/Recycling_symbol.svg" class="w-9 h-9 mx-3" alt="Logo recycling"><a
+                href="{{ .Site.BaseURL }}" class="text-3xl font-bold py-5 lg:py-[0]">{{ .Site.Title
+                }}</a><span
+                class="hamburger cursor-pointer py-6 md:py-[0] text-3xl font-bold">&#9776;</span></label>
+        <!-- Menu Items -->
+        <ul class="lg:flex lg:flex-row hidden" id="menu">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            <li class="{{ if $currentPage.IsMenuCurrent "main" . }} !no-underline bg-sky-600 text-white {{ end }}">
+                <a href="{{ .URL }}" class="block p-6 underline hover:bg-sky-500 hover:text-stone-900 hover:no-underline hover:transition hover:duration-300 font-semibold">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</nav>
