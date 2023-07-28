@@ -4,7 +4,8 @@ baseURL:        ''
 languageCode:   'fr-FR'
 title:          'Exercices souris'
 
-publishDir:     '/opt/lampp/htdocs/Public/public-souris'
+#publishDir:     '/opt/lampp/htdocs/Public/public-souris'
+# Commenter obligatoirement pour netlify. D'ou le npm run prod
 googleAnalytics: G-6F7B7XK0CH
 
 # Content setup
