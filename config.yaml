@@ -13,7 +13,7 @@ paginate:       6
 
 # Parameter settings
 params:
-  home:         'img/3-Tasten-Maus_Microsoft.webp'
+  home:         'img/IMG_20230820_161425w900.webp'
   happy:        'images/M-Face-7.svg'
   unhappy:      'images/glassy-smiley-bad.svg'
 
