@@ -13,7 +13,7 @@ paginate:       6
 
 # Parameter settings
 params:
-  home:         'img/IMG_20230820_161425w900.webp'
+  home:         'img/IMG_20231104_152510w900.webp'
   happy:        'images/M-Face-7.svg'
   unhappy:      'images/glassy-smiley-bad.svg'
 
