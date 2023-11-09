@@ -14,8 +14,7 @@
             <p>
                 {{ $title := "single" }}
                 {{ if not (eq $title .Page.Title) }}
-                {{ if .Date }} {{ .Date.Format "02/01/2006" }} | {{ end }} {{ .Site.Params.author | default "Anonymous"
-                }}
+                {{ if .Date }} {{ .Date.Format "02/01/2006" }} | {{ end }}
                 {{ end }}
             </p>
         </section>
