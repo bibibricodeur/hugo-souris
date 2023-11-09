@@ -6,7 +6,7 @@ title:          'Exercices souris'
 
 # Commenter obligatoirement pour netlify. D'ou le npm run prod
 #publishDir:     '/opt/lampp/htdocs/Public/public-souris'
-summary:        'summaryLength (30)'
+summary:        'summaryLength=30'
 
 googleAnalytics: G-6F7B7XK0CH
 
