@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "hugo server & tailwindcss -i ./assets/src/input.css -o ./assets/dist/output.css --watch",
-    
+    "build": "hugo && tailwindcss -i ./assets/src/input.css -o ./assets/dist/output.css --cleanDestinationDir --minify",
     "prod": "tailwindcss -i ./assets/src/input.css -o ./assets/dist/output.css --minify"
   },
   "keywords": [],
